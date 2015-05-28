@@ -40,7 +40,7 @@
 				<textarea rows="5" cols="100" readonly> 
 					SELECT DE.emp_no FROM departments AS D, dept_emp AS DE WHERE DE.dept_no = 'd008' and D.dept_no = 'd008' 
 				</textarea> 
-				<button class="btn btn-lg btn-success"  onclick="window.open('http://localhost/appweb/index.php/controlador/consulta_simple');">ENVIAR</button>
+				<a  href="http://localhost/appweb/index.php/controlador/consulta_simple ">ENVIAR</a><br>
 		</div>
 	</div>
 	<div class="row">
@@ -49,8 +49,7 @@
 				<textarea rows="5" cols="100" readonly> 
 					SELECT de.emp_no,d.dept_no FROM departments as d, dept_emp as de WHERE d.dept_no = "d008" and de.dept_no = "d008"
 				</textarea> 
-				<button class="btn btn-lg btn-success"  onclick="window.open('http://localhost/appweb/index.php/controlador/consulta_media')">ENVIAR</button>
-
+				<a  href="http://localhost/appweb/index.php/controlador/consulta_media">ENVIAR</a><br>
 		</div>
 	</div>
 	<div class="row">
@@ -68,7 +67,7 @@
                 t.emp_no = de.emp_no and
                 d.dept_no = "d008" 
 				</textarea>
-				<button class="btn btn-lg btn-success"  onclick="window.open('http://localhost/appweb/index.php/controlador/consulta_compleja')">ENVIAR</button>
+				<a  href="http://localhost/appweb/index.php/controlador/consulta_compleja">ENVIAR</a><br> 
 		</div>	
 	</div>
 </div>
