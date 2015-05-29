@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>APP WEB</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	
-
-	<script src="https://code.jquery.com/jquery-latest.js"></script>
-	
-</head>
-<body>
-	
-<header> 
-	<div class="container">
-		<h1>APP WEB</h1>
-	</div>
-</header>
 <div class="container">
 	<section class="main row">
 		<article class="col-xs-12 col-sm-8 col-md-9 ">
@@ -76,16 +58,6 @@
 
 
 <style type="text/css">
-header{
-	background: #009001;
-	margin-bottom: 50px;
-	background: #009001;
-	width: 100%;
-	position: absolute;
-   	left: 0%;
-   	top: 0px;
-}
-
 
 article{
 	width: 50%;
@@ -123,11 +95,6 @@ aside{
    	top: 600px;
 	
 }
-
-body{
-	background: #E6E6E6;
-}
-
 
 </style>
 
