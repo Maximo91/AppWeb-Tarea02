@@ -31,7 +31,7 @@
 		</aside>
 	</section>			
 	<div class="row">
-		<div class="col-md-12" >
+		<div class="col-md-12" id="Columna01">
 			<h2>Consulta 01</h2>
 				<textarea rows="5" cols="100" readonly> 
 					SELECT DE.emp_no FROM departments AS D, dept_emp AS DE WHERE DE.dept_no = 'd008' and D.dept_no = 'd008' 
@@ -40,7 +40,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12" >
+		<div class="col-md-12" id="Columna02">
 			<h2>Consulta 02</h2>
 				<textarea rows="5" cols="100" readonly> 
 					SELECT de.emp_no,d.dept_no FROM departments as d, dept_emp as de WHERE d.dept_no = "d008" and de.dept_no = "d008"
@@ -49,7 +49,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12" >	
+		<div class="col-md-12" id="Columna03">	
 			<h2>Consulta 03</h2>	
 				<textarea rows="13" cols="100" readonly> 
 				SELECT title,birth_date,salary, first_name,last_name,hire_date FROM 
