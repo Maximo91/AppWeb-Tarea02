@@ -5,10 +5,6 @@
 	<title>APP WEB</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
 	
@@ -81,7 +77,51 @@
 
 <style type="text/css">
 header{
-background: #009001;
+	background: #009001;
+	margin-bottom: 50px;
+	background: #009001;
+	width: 100%;
+	position: absolute;
+   	left: 0%;
+   	top: 0px;
+}
+
+
+article{
+	width: 50%;
+	position: absolute;
+   	left: 0%;
+   	top: 100px;
+
+}
+
+aside{
+	width: 50%;
+	position: absolute;
+   	left: 50%;
+   	top: 100px;
+	
+}
+
+#Columna01{
+	width: 100%;
+	position: absolute;
+   	left: 0%;
+   	top: 200px;
+}
+#Columna02{
+	width: 100%;
+	position: absolute;
+   	left: 0%;
+   	top: 400px;
+	
+}
+#Columna03{
+	width: 100%;
+	position: absolute;
+   	left: 0%;
+   	top: 600px;
+	
 }
 
 body{

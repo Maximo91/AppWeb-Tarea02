@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>APP WEB</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   </head>
   <body>
     <header> 
@@ -35,7 +34,13 @@
 
 <style type="text/css">
 header{
-background: #009001;
+    background: #009001;
+    margin-bottom: 50px;
+    background: #009001;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0px;
 }
 
 body{
